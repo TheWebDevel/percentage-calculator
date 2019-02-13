@@ -33,7 +33,7 @@ class App extends Component {
       <div className="App">
         <form onSubmit={this.handleSubmit}>
           <label>
-            <input type="text" value={this.state.firstValue} onChange={this.handleValueChange} />
+            <input autofocus type="text" value={this.state.firstValue} onChange={this.handleValueChange} />
             is what percentage of
           </label>
           <label>
