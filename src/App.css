@@ -2,6 +2,38 @@
   text-align: center;
 }
 
+.App form {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.App label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App input {
+  display: block;
+  height: 50px;
+  background: #272727;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  margin: 10px;
+  padding: 0px 20px;
+}
+
+.App h1 {
+  display: block;
+  font-size: 70px;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;

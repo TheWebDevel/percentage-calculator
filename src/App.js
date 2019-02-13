@@ -39,12 +39,9 @@ class App extends Component {
           <label>
             <input type="text" value={this.state.secondValue} onChange={this.handlePercentChange} />
           </label>
-          <input type="submit" value="Submit" />
-          <label>
-            Calculate
-            {this.state.result}%
-          </label>
+          <input type="submit" value="Calculate" />
         </form>
+        <h1>{this.state.result}%</h1>
       </div>
     );
   }
