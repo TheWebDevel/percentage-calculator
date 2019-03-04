@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -33,7 +32,7 @@ class App extends Component {
       <div className="App">
         <form onSubmit={this.handleSubmit}>
           <label>
-            <input autofocus type="text" value={this.state.firstValue} onChange={this.handleValueChange} />
+            <input autoFocus type="text" value={this.state.firstValue} onChange={this.handleValueChange} />
             is what percentage of
           </label>
           <label>
